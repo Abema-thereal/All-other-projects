@@ -50,10 +50,10 @@ def run_alexa():
         talk('I am with you right now')
     elif 'are you single' in command:
         talk('I am all yours, baby')
-    elif 'president' in command:
-        talk('We shall follow our leader, president Putin!')
-    elif 'obama' in command:
-        talk('Obama is the best!')
+    elif 'day' in command:
+        talk('It is wednesday, my dudes!')
+    elif 'mood' in command:
+        talk('I am ok, and hope you are too :)')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     else:
